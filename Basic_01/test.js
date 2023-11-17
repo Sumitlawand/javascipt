@@ -50,8 +50,17 @@
 
 
 // E-06
+// CONVARTING STRING INTO NUMBER OR CONVARTTING DATA TYPE 
+
+// let Score = 3000;
+
+// let newscore = Number(Score);
+// console.log(typeof newscore);
+
+// let sumit = 0;
+// let newsumit = Boolean(sumit)
+// console.log(newsumit)
 
 
-
-
+// E-07
 
