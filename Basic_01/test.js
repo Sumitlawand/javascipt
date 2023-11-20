@@ -79,14 +79,14 @@
 
 // E-010
 
-let name = "Sumit";
-let age = 30;
+// let name = "Sumit";
+// let age = 30;
 
-console.log(`my Name is ${name} and my age is ${age}`)
-console.log(name.length)
-console.log(name.toUpperCase())
-console.log(name.charAt(2))
-console.log(name.indexOf('m'));
+// console.log(`my Name is ${name} and my age is ${age}`)
+// console.log(name.length)
+// console.log(name.toUpperCase())
+// console.log(name.charAt(2))
+// console.log(name.indexOf('m'));
 
 
 
