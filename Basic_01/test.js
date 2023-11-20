@@ -61,6 +61,33 @@
 // let newsumit = Boolean(sumit)
 // console.log(newsumit)
 
+// ++++++++++++++++++++++++++++++OPREATIONS++++++++++++++++++++++++++++++++++
 
 // E-07
+// let sum1 = "Sumit";
+// let sum2 = " lawand";
+
+// console.log(sum1 + sum2);
+
+
+// console.log(1 + "2")
+
+// let games = 1000;
+// console.log(++games)
+
+// console.log("2" === 2)
+
+// E-010
+
+let name = "Sumit";
+let age = 30;
+
+console.log(`my Name is ${name} and my age is ${age}`)
+console.log(name.length)
+console.log(name.toUpperCase())
+console.log(name.charAt(2))
+console.log(name.indexOf('m'));
+
+
+
 
