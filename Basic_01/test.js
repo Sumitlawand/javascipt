@@ -89,5 +89,88 @@
 // console.log(name.indexOf('m'));
 
 
+//// EP-14
+//Date in javascript
+
+
+// let myDate =  new Date()
+// console.log(myDate.toString());
+// console.log(myDate.toLocaleDateString());
+// console.log(myDate.toDateString());
+// console.log(typeof myDate);
+
+// let createdate =new Date(2023, 0, 23)
+// let createdateA =new Date(2023, 0, 23, 5, 5)
+// let createdateB =new Date(2023-23-11)
+// let createdateC =new Date(23-11-2023)
+
+
+// console.log(createdate)
+// console.log(createdateA.toLocaleDateString())
+// console.log(createdateB.toLocaleDateString())
+// console.log(createdateC.toDateString())
+
+
+// let mytime = Date.now()
+// console.log(mytime)
+// console.log(createdate.getTime())
+
+
+// console.log(Math.floor(Date.now()/1000))
+
+
+
+// EP-14
+// Array
+
+// let array = [1,2,3,4,5,6,true,"Sumit"]
+
+// console.log(array.length)
+// console.log(array.push("lawand"))
+// console.log(array.pop());
+// console.log(array.shift());
+// console.log(array.includes("Sumit"));
+// console.log(array.indexOf("Sumit"));
+// let newarray = array.join();
+
+// console.log(array)
+// console.log(newarray)
+
+// console.log("A" , array)
+// let newarray = array.slice(2,3);
+// console.log, (newarray)
+// console.log(("B" ,array)
+
+// EP-15
+// Array - 2
+
+let marval_hero = ["ironnman","thor","captan america"]
+let dc_heros = ["superman","batman", "flash"]
+
+// marval_hero.push(dc_heros)
+// console.log(marval_hero.push(dc_heros))
+// console.log(marval_hero)
+
+// let heros = marval_hero.concat(dc_heros)
+// let allheros = [...marval_hero,...dc_heros]
+
+// let allinone = [1,2,3,54,5,[5,5,5,][56,6,7[7,7,8,8]]]
+
+// let sumit = (allinone.flat(Infinity))
+// console.log(sumit)
+
+console.log(Array.isArray("sumit"))
+console.log(Array.from("Sumit"))
+
+
+
+
+
+
+
+
+
+
+
 
 
