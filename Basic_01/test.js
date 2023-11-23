@@ -144,8 +144,8 @@
 // EP-15
 // Array - 2
 
-let marval_hero = ["ironnman","thor","captan america"]
-let dc_heros = ["superman","batman", "flash"]
+// let marval_hero = ["ironnman","thor","captan america"]
+// let dc_heros = ["superman","batman", "flash"]
 
 // marval_hero.push(dc_heros)
 // console.log(marval_hero.push(dc_heros))
@@ -159,8 +159,65 @@ let dc_heros = ["superman","batman", "flash"]
 // let sumit = (allinone.flat(Infinity))
 // console.log(sumit)
 
-console.log(Array.isArray("sumit"))
-console.log(Array.from("Sumit"))
+// console.log(Array.isArray("sumit"))
+// console.log(Array.from("Sumit"))
+
+
+// let A = 100;
+
+// let b = 200;
+
+// let c = 300;
+
+// let sumit = (Array.of(A,b,c))
+// console.log(sumit)
+
+// EP = 16
+// Object
+
+// singletone
+
+
+// Object litterals
+
+// const Employ = {
+//     name:"Sumit",
+//     "lastname":"lawand",
+//     age:18,
+//     email:"Sumit@gmail.com",
+//     weekdays:["sunday","saturday"]
+
+
+// }
+
+// console.log(Employ.age)
+// console.log(Employ["lastname"])
+// Employ.age=20
+// console.log(Employ)
+// Object.freeze(Employ)
+// Employ.age=29
+
+// Employ.grreting=function(){
+//     console.log("hello Sumit lawand")
+// }
+// Employ.grretingtwo=function(){
+//     console.log(`My name is ${this.name}`)
+
+// }
+// console.log(Employ.grreting())
+// console.log(Employ.grretingtwo())
+
+const value = {
+    age:18,
+    name:"sumit",
+    email:"sumit@gmail.com"
+}
+const {email} = value;
+console.log(email)
+
+
+
+
 
 
 
