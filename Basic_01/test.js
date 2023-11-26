@@ -249,22 +249,77 @@
 
 // destruchring
 
-const course = {
-    name:"Sumit",
-    lastname:"Lawand",
-    fees:"999"
+// const course = {
+//     name:"Sumit",
+//     lastname:"Lawand",
+//     fees:"999"
 
-}
+// }
 
 // console.log(course.fees)
 
-const {name} = course
-console.log(name)
+// const {name} = course
+// console.log(name)
+
+
+// EP = 20
+
+// function saymyname(){
+//     console.log("S")
+//     console.log("u")
+//     console.log("m")
+//     console.log("i")
+//     console.log("t")
+
+// }
+
+// saymyname();
+
+
+// function sumit(){
+//     let name = "Sumit"
+// }
+
+// console.log(sumit.name)
+
+
+// function addnumber (num1, num2){
+//     console.log(num1 + num2)
+// }
+
+// addnumber()
+
+
+// function addnumber (num1, num2){
+//     let sumit = (num1 + num2)
+//     return sumit
+// }
+
+// const sumit = addnumber (2,3)
+
+// console.log("result: ", sumit)
+
+
+// function userlog (username){
 
 
 
 
+// defulat vaule add
+    // function userlog (username = 'Sumit'){
 
+//     if(username === undefined){
+// console.log("Please loged in")
+// return
+//     }
+// if(!username){
+//      console.log("Please loged in")
+//     return
+//        }
+//     return (`${username} is just loged in`)
+// }
+
+// console.log(userlog())
 
 
 
