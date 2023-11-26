@@ -207,15 +207,59 @@
 // console.log(Employ.grreting())
 // console.log(Employ.grretingtwo())
 
-const value = {
-    age:18,
-    name:"sumit",
-    email:"sumit@gmail.com"
+// const value = {
+//     age:18,
+//     name:"sumit",
+//     email:"sumit@gmail.com"
+// }
+// const {email} = value;
+// console.log(email)
+
+// EP = 17
+// const tinderobj = {}
+
+// tinderobj.name="Sumit";
+// tinderobj.lastname="Lawand";
+// tinderobj.logedin = false;
+
+
+// console.log(tinderobj);
+
+// const tinderobj = {
+
+// fullname:{
+//   firstname:  "Sumit",
+// lastname:"Lawand",
+// },
+// logedin : false,
+
+// }
+
+
+// console.log(tinderobj.fullname);
+
+// const obj1 = "Sumit";
+// const obj2 = "Lawand";
+
+// const obj3 = Object.assign({},obj1,obj2)
+// console.log(obj3)
+
+
+// EP = 19
+
+// destruchring
+
+const course = {
+    name:"Sumit",
+    lastname:"Lawand",
+    fees:"999"
+
 }
-const {email} = value;
-console.log(email)
 
+// console.log(course.fees)
 
+const {name} = course
+console.log(name)
 
 
 
