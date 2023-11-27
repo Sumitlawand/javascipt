@@ -324,9 +324,224 @@
 
 
 
+// EP = 21
+
+// function  addvalue (...add){
+//   return add
+// }
+
+// console.log(addvalue(200,300,600))
+
+// const sumitadd = {
+//     name:"sumit",
+//     lastname:"lawand",
+//     age:24,
+// }
+
+// // console.log(sumitadd.age)
+
+// function value (adddata){
+//     console.log(`your name is ${adddata.name} your age is ${adddata.age}`)
+// }
+
+
+// value(sumitadd)
+
+// const myarray = [20,35,6,77,87,8]
+
+// console.log(myarray[0])
+// function add (arr){
+//  return arr[1]
+// }
+
+
+// console.log(add(myarray))
+
+// EP-24
+
+// arrow and this kyword
+
+// const data = {
+//     name:"Sumit",
+//     password:"123",
+//     lastname:function(){
+//         console.log(`${this.name} is password id ${this.password}`)
+//     }
+// }
+
+// data.lastname()
+// data.name = "sagar"
+// data.lastname()
+
+
+// function add (num1,num2){
+//     return num1 + num2
+
+// } 
+
+
+// const add = (num1, num2) => {
+//    return num1 + num2
+// }
+
+// const add = (num1, num2) =>  (num1 + num2)
+
+// const add = (num1, num2) => ({name:"Sumit"})
+ 
+
+// add.name()
 
 
 
+// EP - 24
+
+// 
+
+// (function sumit (){
+//     console.log(`Sumit lawand`)
+// })();
+
+// (()=>{
+//     console.log(`Sumit lawand`)
+// })();
+
+// ((age)=>{
+//     console.log(`Sumit lawand ${age}`)
+// })(24)
+
+
+// sum time you get problem from global scope pollution to stop this we con use IIFE
+
+
+// EP-25
+
+// how javascript execute code
+
+//  CALL STAK 
+
+//  memory pahse and execution context
+
+// if you call funtion inside function call stack call last function which come intio call stack
+//   (LIFO)
+
+
+    
+
+// EP -27
+
+// control flow
+
+// if statement
+
+// comparrsan oprater
+// <,>,==,===,!=,<=,>=,
+
+const iserlogedin = false;
+
+// if(iserlogedin){
+//   console.log("Exicuted")
+// }else{
+// console.log("Not Exicuted")
+// }
+
+// if (2 === "2"){
+//   console.log("is excuted")
+// }
+// if(2 !== "4"){
+//     console.log("Sumit lawand")
+// }
+//   const temp  =  50;
+//   if(temp < 60){
+// console.log("Sumit lawand")
+//   }
+// const data = "sumit"
+// if ("Sumit"){
+//     let price = 100
+//     console.log(`my data price is ${price}`)
+// }
+
+// const balance = 540
+
+// if(balance < 500 ){
+// console.log("your balaance is less 500")
+// }else if(balance < 750){
+//     console.log("your balaance is less 500")
+
+// }else if(balance < 850){
+//     console.log("your balaance is less 500")
+
+// }else if(balance < 950){
+//     console.log("your balaance is less 500")
+
+// }else{
+//     console.log("your balance is grater 1200")
+// }
+
+// const userlogedin = true;
+// const price = true;
+
+// if(userlogedin && price & 2==2){
+// console.log("Wellcome")
+// }
+
+
+// const userlogmail = false;
+// const userotp = true;
+
+// if(userlogmail || userotp){
+//     console.log("user is loged in")
+// }
 
 
 
+// switch condition
+
+// const month = "Sumit";
+
+// switch (month){
+// case "rahul":
+//     console.log("rahul")
+//     break;
+//     case "ram":
+//         console.log("ram")
+//         break;
+//         case "Sumit":
+//             console.log("Sumit")
+//             break;
+//             default:
+//                 console.log("default")
+// }
+
+
+// truthy and faulse values in js
+
+// falsy values/
+//   false, "",0,-0,null,NaN,undefined,BigInt n0
+
+
+// truthy values
+// true," ",'false','0','-0',[],{},function () {}
+
+
+// detect object and array is true or falue
+
+// const email = []
+
+// if(email.length===0){
+// console.log("sumit")
+// }
+
+// const data = {}
+
+// if(Object.keys(data).length===0){
+//     console.log("Sumit lawand")
+
+// }
+
+// turneru oprater
+
+// const icecremprice = 100;
+
+
+// condition                     true                        false
+// icecremprice >= 80 ? console.log("Sumit") : console.log("sanjiwani")
