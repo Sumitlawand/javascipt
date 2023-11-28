@@ -545,3 +545,51 @@ const iserlogedin = false;
 
 // condition                     true                        false
 // icecremprice >= 80 ? console.log("Sumit") : console.log("sanjiwani")
+
+
+
+
+// EP - 28
+
+// for
+
+// for (i = 0; i <= 10; i++){
+//     const element = i;
+//     if( i == 5){
+//       console.log(i)
+//     }
+//     console.log(element)
+
+// }
+
+
+// for (i=0; i <= 10; i++){
+//     console.log(i)
+//     for(j=0; j<=10; j++){
+//      console.log(j)
+//     }
+// }
+
+// let myarray = ["Sumit", "Rahul" , "Raj","Sagar"]
+
+// for(index=0;index < myarray.length; index++){
+//    const element = myarray[index]
+//    console.log(element)
+// }
+
+
+// for (i=1; i<20;i++){
+//     if(i==5)
+//   { console.log("5 id Detected");
+//   break}
+//    console.log(i)
+// }
+
+// for (i=1; i<20;i++){
+//     if(i==5)
+//   {
+//      console.log("5 id Detected");
+//   continue
+// }
+//    console.log(i)
+// }
