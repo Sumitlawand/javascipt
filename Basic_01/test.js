@@ -549,7 +549,7 @@ const iserlogedin = false;
 
 
 
-// EP - 28
+// EP - 27
 
 // for
 
@@ -593,3 +593,23 @@ const iserlogedin = false;
 // }
 //    console.log(i)
 // }
+
+
+// EP - 28
+
+// Do While loop
+
+let i = 0 
+while (i <= 10){
+  console.log(i);
+  i = i + 1
+}
+
+
+let  array =  ["Sumit", "Rahul" , "Raj","Sagar"]
+
+i = 0;
+while(i < array.length){
+  console.log(array)
+  array = array +
+}
