@@ -599,17 +599,31 @@ const iserlogedin = false;
 
 // Do While loop
 
-let i = 0 
-while (i <= 10){
-  console.log(i);
-  i = i + 1
-}
+// let i = 0 
+// while (i <= 10){
+//   console.log(i);
+//   i = i + 1
+// }
 
 
 let  array =  ["Sumit", "Rahul" , "Raj","Sagar"]
 
-i = 0;
-while(i < array.length){
-  console.log(array)
-  array = array +
-}
+// i = 0;
+// while(i < array.length){
+//   console.log(array)
+//   array = array + 1
+// }
+
+// i = 0;
+// while ( i < array.length){
+//      console.log(`name of candidate ${array[i]}`)
+//      i = i + 1
+//  }
+
+// i = 0
+// do {
+//   console.log(`count is ${i}`)
+//   i++
+// } while (i < 10);
+
+// EP - 29
