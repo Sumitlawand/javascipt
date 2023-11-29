@@ -627,3 +627,105 @@ let  array =  ["Sumit", "Rahul" , "Raj","Sagar"]
 // } while (i < 10);
 
 // EP - 29
+
+//for of loop
+
+// const arry = [1,2,3,4,5]
+
+// for (const num of arry ){
+//     console.log(num)
+// }
+
+// const massage = "Hello world!"
+// for(const text of massage ){
+//     console.log(text)
+//     if(" "){
+//         continue
+//     }
+// }
+
+
+//Map
+
+// const map = new Map()
+// map.set('IN', "India")
+// map.set('US', "canada")
+// map.set('JP', "Heroshima")
+
+// // console.log(map)
+// for(const [maps,value] of map){
+//     console.log(maps, ':-' ,value)
+
+// }
+
+
+// const object = {
+//     name:'sumit',
+//     lastneme:'lawand',
+//     food:'apple',
+//     run:'fast',
+// }
+// for (const key in object) {
+ 
+//         console.log(key)
+//     }
+
+// const data = (console.log(object.name))
+// console.log([objec.value])
+
+
+// const arry = [1,2,3,4,5]
+
+// for (const iterator of arry) {
+//     console.log(iterator)
+//     if (iterator == 5) {
+//         console.log("End task")
+//     }
+    
+// }
+
+// const map = new Map()
+// map.set('ind', "india")
+// map.set('pak', "pakistan")
+// map.set('us', "umited state")
+
+// console.log(map)
+
+// for (const [key,value] of map) {
+//     console.log(key ,":-" ,value)
+// }
+
+
+//Object
+
+
+// const object = {
+//     name:'sumit',
+//     lastneme:'lawand',
+//     food:'apple',
+//     run:'fast',
+// }
+
+// for (const key in object) {
+//    console.log(`${key} is the object of ${object[key]} `  )
+// }
+
+
+// const Array = ["Sumit","Raj","Rahul","Aniket","Sujay",]
+
+// for ( i in array){
+// console.log(array[i])
+// }
+
+
+// const map = new Map()
+// map.set('ind', "india")
+// map.set('pak', "pakistan")
+// map.set('us', "umited state")
+
+// for ( i  in map){
+//     console.log(i)
+// }
+
+
+// forEach
