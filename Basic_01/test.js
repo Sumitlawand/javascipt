@@ -729,3 +729,34 @@ let  array =  ["Sumit", "Rahul" , "Raj","Sagar"]
 
 
 // forEach
+
+// const data = ["Sumit","Raj","Rahul","Aniket","Sujay"]
+
+// data.forEach((data)=>{
+//     console.log(data)
+// })
+
+// function print (item){
+//     console.log(item)
+// }
+
+// data.forEach(print)
+
+// data.forEach((item,index,arr)=>{
+//     console.log(item,index,arr)
+// })
+
+
+// const data= [
+
+//     {name:"Sumit",
+// lastname:"lawand"},
+// {name:"Rahul",
+// lastname:"Patil"},
+// {name:"Raj",
+// lastname:"Jadhav"}
+// ]
+
+// data.forEach((item)=>{
+//     console.log(`${item.name}  ${item.lastname}`)
+// })
