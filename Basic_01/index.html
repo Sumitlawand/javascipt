@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body style="background-color: black; color: white;">
+    <div class="data">
+        <h1 class="bg-black">Hrough four customer interviews and data aggregation</h1>
+        <h2>Hrough four customer interviews and data aggregation</h2>
+        <h2>Hrough four customer interviews and data aggregation</h2> 
+        <h2>Hrough four customer interviews and data aggregation</h2>
+
+        <p id='title'class="heading">Through four customer interviews and data aggregation, Forrester concluded that the Aiven
+            Platform has the following three-year financial impact.</p>
+            <input type="password" name="" id="">
+
+
+            <ul class="parent">
+                <li class="list-item">Sumit lawand</li>
+                <li class="list-item">Sumit lawand</li>
+                <li class="list-item">Sumit lawand</li>
+            </ul>
+    </div>
+</body>
+<script>
+//    const parent  = document.querySelector('.parent')
+//    console.log(parent.firstElementchild)
+
+
+// EP - 34 add and remove value using dom
+
+   function addvalue (li){
+     const value  = document.querySelector("li")
+     console.log(value)
+     value.appendChild(document.createTextNode(li))
+     document.querySelector(".parent").appendChild(li)
+
+   }
+addvalue("sumit lawand")
+    </script>
+</html>
